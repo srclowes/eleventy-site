@@ -3,3 +3,7 @@ html {
   line-height: 1.5;
   font-family: system-ui, sans-serif;
 }
+
+#home-link {
+  font-weight: bold;
+}
