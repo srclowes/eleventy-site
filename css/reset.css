@@ -17,7 +17,9 @@ p,
 figure,
 blockquote,
 dl,
-dd {
+dd,
+ul,
+ol {
   margin: 0;
 }
 
@@ -31,4 +33,10 @@ img,
 picture {
   max-inline-size: 100%;
   display: block;
+}
+
+/* Baseline for default links */
+a:not([class], [id]) {
+  text-decoration-thickness: max(0.08em, 1px);
+  text-underline-offset: 0.15em;
 }

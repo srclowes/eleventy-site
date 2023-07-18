@@ -1,3 +1,8 @@
-header {
-  border-block-end: 1px solid;
+header a {
+  text-decoration: none;
+}
+
+nav > ul {
+  padding: 0;
+  list-style: none;
 }
