@@ -1,26 +1,11 @@
 /* https://piccalil.li/blog/a-modern-css-reset */
 
-/* Box sizing rules */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd,
-ul,
-ol {
-  margin: 0;
+  box-sizing: border-box; /* Box sizing rules */
+  margin: 0; /* Remove default margin */
+  color: inherit; /* Remove any color */
 }
 
 /* Set core root defaults */

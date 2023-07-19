@@ -1,0 +1,8 @@
+body {
+  font-family: var(--font-system);
+  line-height: var(--ratio);
+}
+
+*:not(:is(html, body, header, nav, main, div, section, footer)) {
+  max-inline-size: var(--measure);
+}

@@ -1,4 +1,5 @@
 :root {
   --font-system: system-ui, sans-serif;
   --ratio: 1.5;
+  --measure: 60ch;
 }
