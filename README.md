@@ -7,3 +7,4 @@ An 11ty blog site for testing new web features.
 ### CSS
 
 - Logical properties
+- Functional pseudo classes

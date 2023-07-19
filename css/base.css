@@ -1,8 +1,19 @@
 body {
   font-family: var(--font-system);
-  line-height: var(--ratio);
+  line-height: var(--lh-regular);
+  padding: var(--padding-sm);
 }
 
-*:not(:is(html, body, header, nav, main, div, section, footer)) {
+*:not(:is(html, body, header, nav, main, div, section, article, footer)) {
   max-inline-size: var(--measure);
+}
+
+h1 {
+  font-size: var(--s2);
+  line-height: var(--lh-tight);
+}
+
+h2 {
+  font-size: var(--s1);
+  line-height: var(--lh-slim);
 }
