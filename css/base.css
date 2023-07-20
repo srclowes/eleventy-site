@@ -1,7 +1,8 @@
 body {
+  text-rendering: optimizeSpeed;
   font-family: var(--font-system);
+  font-size: var(--s0);
   line-height: var(--lh-regular);
-  padding: var(--padding-sm);
 }
 
 *:not(:is(html, body, header, nav, main, div, section, article, footer)) {

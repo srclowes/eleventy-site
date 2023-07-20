@@ -6,5 +6,8 @@ An 11ty blog site for testing new web features.
 
 ### CSS
 
+- Variables
 - Logical properties
 - Functional pseudo classes
+- Character units
+- Comparison functions

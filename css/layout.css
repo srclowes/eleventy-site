@@ -1,0 +1,11 @@
+:is(main, .flow) > * + * {
+  margin-block-start: var(--flow, var(--flow-sm));
+}
+
+:is(main, .flow) > * + h2 {
+  --flow: var(--flow-md);
+}
+
+:is(main, .flow) > h1 + * {
+  --flow: var(--flow-lg);
+}
